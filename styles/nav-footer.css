@@ -1,0 +1,71 @@
+/****************Nav Bar****************/
+
+
+.site-navigation{
+
+}
+
+.site-navigation img{
+	margin-top: 20px;
+	margin-right: 30px;
+}
+
+.site-navigation img, .site-navigation li, .site-navigation ul, .site-navigation form{
+	float: left;
+	line-height: 93px;
+}
+
+.site-navigation a{
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.site-navigation li{
+	margin-left: 40px;
+}
+
+.site-navigation a:hover{
+	color: #000;
+}
+
+.site-navigation input{
+	width: 200px;
+	height: 30px;
+	margin-top: 30px;
+	background-image: url(../images/navigation/search-button.png);
+	background-repeat: no-repeat;
+	background-position: 5px 3px;
+	margin-left: 80px;
+	padding-left: 36px;
+	outline: none;
+	border-radius: 8px;
+}
+
+
+
+/*********************Footer*******************/
+.sponsors li{
+	float: left;
+	margin-left: 70px;
+}
+
+.legal{
+	width: 550px;
+	margin: 24px auto;
+}
+
+.legal a{
+	color: #b5b5b5;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.legal a:hover{
+	color: #727272;
+}
+
+.legal li{
+	float: left;
+	margin-left: 30px;
+}

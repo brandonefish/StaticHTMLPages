@@ -1,0 +1,266 @@
+html{
+	background-image: url(../images/main-page/smallbackground.gif);
+	background-repeat: repeat-x;
+	background-color: #fff;
+}
+
+body{
+	width: 960px;
+	margin: auto;
+	font-size: 100%;
+	line-height: 1.5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/******************Payment Info -Left Column*******************/
+
+.payment-information{
+	width: 550px;
+	float: left;
+}
+
+.bread-crumbs h1{
+	margin-top: 56px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.bread-crumbs a{
+	font-size: 10px;
+	text-decoration: none;
+	color: #178fc5;
+}
+
+.bread-crumbs span{
+	font-size: 10px;
+	text-decoration: none;
+	color: #868686;
+}
+
+/*****************Customer Information********************/
+
+input{
+	height: 35px;
+	border-radius: 6px;
+	border: 1px solid #e6e6e6;
+	margin-top: 16px;
+	color: #818080;
+	padding-left: 16px;
+}
+
+.customer-information{
+	margin-top: 72px;
+}
+
+.customer-information h2, .payment-information h2{
+	font-size:16px;
+}
+
+.email-address input{
+	width: 400px;
+	height: 35px;
+	padding-left: 16px;
+}
+
+.customer-information p, .payment-information p{
+	font-size: 11px;
+	color: #178fc5;
+}
+
+/****************Payment Method********************/
+
+.payment-method{
+	margin-top: 72px;
+}
+
+.payment-method form{
+	margin-top: 18px;
+	width: 416px;
+}
+
+.payment-method input{
+	height: 35px;
+	border-radius: 6px;
+	border: 1px solid #e6e6e6;
+	margin-top: 16px;
+	margin-left: 16px;
+	color: #818080;
+}
+
+/*GET LOCK ICON*/
+
+.card-number input{
+	width: 366px;
+	background-image: url(../images/checkout/lockicon.gif);
+	background-repeat: no-repeat;
+	background-position: 355px 9px;
+}
+
+.card-details input{
+	width: 186px;
+	margin-bottom: 16px;
+}
+
+.card-details span input{
+	width: 60px;
+	margin-left: 8px;
+}
+
+.security-code{
+	background-image: url(../images/checkout/questionmark.gif);
+	background-repeat: no-repeat;
+	background-position: 50px 7px;
+}
+
+fieldset{
+	border-radius: 4px;
+	border: 1px solid #e3e3e3;
+	background-color: #ececec;
+}
+
+h3{
+	font-size: 11px;
+	color: #4d4d4d;
+	padding: 8px;
+	border-bottom: 1px solid #e3e3e3;
+	background-color: #fff;
+}
+
+/****************Shipping Address*******************/
+
+.shipping-address{
+	margin-top: 72px;	
+}
+
+.name input{
+	width: 190px;
+}
+
+.street-address input:first-of-type{
+	width: 248px;
+}
+
+.street-address input:last-of-type{
+	width: 130px;
+	padding: 0px 10px;
+}
+
+.city input{
+	width: 400px;
+}
+
+.phone-numbers input{
+	width: 118px;
+}
+
+.save-information{
+	margin-top: 8px;
+}
+
+.save-information input{
+	float: left;
+	margin: 0px;
+}
+
+.save-information p{
+	font-size: 11px;
+	color: #818080;
+	float: left;
+	margin-top: 11px;
+	padding-left:8px;
+}
+
+.make-payment{
+	width: 416px;
+}
+
+.make-payment a{
+	display: block;
+	width: 191px;
+	background-color: #1990c6;
+	border-radius: 6px;
+	color: #fff;
+	text-align: center;
+	padding: 24px 0px;
+	text-decoration: none;
+	margin-top: 24px;
+	float: right;
+}
+
+
+/************Cart Items************/
+
+.cart-items{
+	width: 380px;
+	float: left;
+	margin-left: 30px;
+}
+
+.cart-total{
+	margin-top: 72px;
+}
+
+.cart-total img{
+	background-color: #fff;
+	border:1px solid #efefef;
+	padding: 8px;
+	display: block;
+}
+
+.cart-total table{
+	font-size: 12px;
+	color: #7c7c7c;
+}
+
+.seperator-bar{
+	width: 370px;
+	height: 1px;
+	background-color: #f4f4f4;
+	margin: 12px auto;
+}
+
+.cart-total td{
+	padding-left: 23px;
+	vertical-align: middle;
+}
+
+.cart-total td:first-of-type{
+	padding-left:0px;
+}
+
+.expense{
+	float: left;
+	font-size: 12px;
+	color: #717171;
+}
+
+.expense-cost{
+	float: right;
+	font-size: 12px;
+}
+
+.shipping{
+	margin-top: 48px;
+}
+
+.total .expense{
+	color: #4b4b4b;
+	font-weight:bold;
+	font-size: 16px;
+	padding-left: 4px;
+}
+
+.total .expense-cost span{
+	color: #bfbcbc;
+	font-size: 12px;
+	padding-right: 8px;
+}
+
+.total .expense-cost{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+main{
+	margin-bottom: 140px;
+}

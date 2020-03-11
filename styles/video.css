@@ -1,0 +1,25 @@
+html{
+	background-image: url(../images/main-page/smallbackground.gif);
+	background-repeat: repeat-x;
+	background-color: #fff;
+}
+
+body{
+	width: 960px;
+	margin: auto;
+	font-size: 100%;
+	line-height: 1.5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.videoheader{
+	margin: 48px 0px;
+	font-size: 48px;
+	border-bottom: 2px solid #00b3c8;
+	margin-bottom: 96px;
+}
+
+.videofooter{
+	margin-top: 150px;
+}
+
